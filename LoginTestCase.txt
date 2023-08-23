@@ -1,0 +1,9 @@
+TC001: Login with valid credential, then verify the user logged in.
+    Test Steps:
+    - User navigate to "https://www.tagesspiegel.de/"
+    - User clicks the 'Anmelden' button in the top right corner of the page
+    - User logged in with valid credentials
+    - User verify the "Mein Konto" in the top right corner of the page
+    - User hovers the "Mein Konto" in the top right corner of the page, then clicks the "Mein Profil" 
+    - User verifies vorname and nachname "qa tagesspiegel" above "Personliche Daten"
+    - User verifies Email in the "Personliche Daten" with the email logged in
