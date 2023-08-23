@@ -5,7 +5,7 @@ import user from "../fixtures/user.json"
 
 const vorAndNachname = 'qa tagesspiegel'
 describe('Tagesspiegel Login Test', () => {
-    it('Login with valid credential, then verify the user logged in.', () => {
+    it('Login with valid credential, then verify the user logged in', () => {
         page.navigate()
         page.getAnmeldenBtn(data.anmelden).click()
         cy.login(user.email, user.password)
