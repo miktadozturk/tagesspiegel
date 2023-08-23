@@ -11,3 +11,4 @@ module.exports = defineConfig({
     baseUrl: "https://www.tagesspiegel.de/",
   },
 });
+
